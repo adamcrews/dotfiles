@@ -512,74 +512,40 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
-	<key>NSColorPanelMode</key>
-	<string>5</string>
-	<key>NSColorPickerPageableNameListDefaults</key>
-	<string>1Solarized</string>
-	<key>NSFontPanelPreviewHeight</key>
-	<real>74</real>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/it_prefs</string>
+	<string>~/sandbox/dotfiles/iterm2</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>302</string>
-	</array>
-	<key>NSTableView Hidden Columns KeyBingingTable</key>
-	<array/>
-	<key>NSTableView Sort Ordering KeyBingingTable</key>
-	<array/>
-	<key>NSToolbar Configuration Terminal Toolbar</key>
-	<dict>
-		<key>TB Display Mode</key>
-		<integer>1</integer>
-		<key>TB Icon Size Mode</key>
-		<integer>1</integer>
-		<key>TB Is Shown</key>
-		<integer>0</integer>
-		<key>TB Size Mode</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>647 81 445 350 0 0 1280 778 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>151 212 924 485 0 0 1280 778 </string>
+	<string>206 156 924 485 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>614 4 666 477 0 0 1280 778 </string>
+	<string>868 86 572 352 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>20 47 1250 686 0 0 1280 778 </string>
+	<string>626 427 668 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
-	<string>362 218 570 451 0 0 1280 778 </string>
+	<string>796 94 570 451 0 0 1440 878 </string>
+	<key>NSWindow Frame iTerm Window 11</key>
+	<string>414 237 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>648 21 570 451 0 0 1280 778 </string>
+	<string>826 397 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>71 235 570 451 0 0 1280 778 </string>
+	<string>207 114 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>23 29 810 520 0 0 1280 778 </string>
+	<string>13 422 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>17 78 570 451 0 0 1280 778 </string>
+	<string>247 91 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
-	<string>454 70 570 451 0 0 1280 778 </string>
+	<string>309 352 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 7</key>
-	<string>501 320 570 451 0 0 1280 778 </string>
+	<string>189 93 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 8</key>
-	<string>76 91 570 451 0 0 1280 778 </string>
+	<string>351 306 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 9</key>
-	<string>362 229 570 451 0 0 1280 778 </string>
+	<string>372 283 570 451 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_16CDC3BF-1701-48B7-8D50-E217CF3F4B9E</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -3548,7 +3514,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/acrews/it_prefs</string>
+	<string>/Users/adam/sandbox/dotfiles/iterm2</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -3564,7 +3530,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2013-11-18T05:25:09Z</date>
+	<date>2013-11-18T05:26:37Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -12241,6 +12207,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20130624</string>
+	<string>1.0.0.20131109</string>
 </dict>
 </plist>
