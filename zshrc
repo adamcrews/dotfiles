@@ -79,3 +79,7 @@ export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 # This comes from the curl-ca-bundle brew package
 #export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+
+# add our boxen stuff
+source /opt/boxen/env.sh
+
