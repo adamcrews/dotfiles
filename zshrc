@@ -78,8 +78,15 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/acrews/bin:/usr/local/bin:/opt
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 # This comes from the curl-ca-bundle brew package
-#export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+export SSL_CERT_FILE=/opt/boxen/homebrew/share/ca-bundle.crt
 
 # add our boxen stuff
 source /opt/boxen/env.sh
 
+# Set up java
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+if [ -f ~/.local.zshrc ]; then
+  source ~/.local.zshrc
+fi
+  
