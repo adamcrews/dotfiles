@@ -521,9 +521,9 @@
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
 	<key>NSWindow Frame Preferences</key>
-	<string>206 156 924 485 0 0 1440 878 </string>
+	<string>206 158 924 485 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>868 86 572 352 0 0 1440 878 </string>
+	<string>713 30 652 477 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>626 427 668 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
@@ -3530,7 +3530,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2013-11-18T05:26:37Z</date>
+	<date>2013-12-02T16:27:00Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -3573,7 +3573,7 @@
 	<key>WebKitDefaultFontSize</key>
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
-	<string>Lucida Grande</string>
+	<string>.Lucida Grande UI</string>
 	<key>Window Arrangements</key>
 	<dict>
 		<key>3-preso</key>
