@@ -482,6 +482,8 @@
 	<false/>
 	<key>HideActivityIndicator</key>
 	<false/>
+	<key>HideMenuBarInFullscreen</key>
+	<true/>
 	<key>HideScrollbar</key>
 	<false/>
 	<key>HideTab</key>
@@ -523,7 +525,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>206 158 924 485 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>713 30 652 477 0 0 1440 878 </string>
+	<string>28 400 652 477 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>626 427 668 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
@@ -3468,6 +3470,8 @@
 			<string>/Users/acrews</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -12207,6 +12211,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20131109</string>
+	<string>1.0.0.20131124</string>
 </dict>
 </plist>
