@@ -1,6 +1,6 @@
 set t_Co=256
 " colorscheme blugrine
-set background=dark
+" set background=light
 colorscheme solarized
 
 set shell=/opt/boxen/homebrew/bin/bash

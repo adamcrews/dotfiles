@@ -53,10 +53,10 @@ plugins=(git brew jira screen vagrant web-search)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/acrews/bin:/usr/local/bin:/opt/X11/bin:/usr/local/MacGPG2/bin:/Users/acrews/bin/packer-current"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/adam/bin:/usr/local/bin:/opt/X11/bin:/usr/local/MacGPG2/bin:/Users/adam/bin/packer-current"
 
 # rbenv init
-#export PATH="/Users/acrews/.rbenv/shims:${PATH}"
+#export PATH="/Users/adam/.rbenv/shims:${PATH}"
 #source "/usr/local/Cellar/rbenv/0.4.0/libexec/../completions/rbenv.zsh"
 #rbenv rehash 2>/dev/null
 #rbenv() {
