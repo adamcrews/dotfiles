@@ -1,0 +1,18 @@
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+excludesfile = /opt/boxen/config/git/gitignore
+
+[hub]
+protocol = https
+[user]
+	name = Adam Crews
+	email = adam@puppetlabs.com
+[push]
+	default = simple
+[color]
+	ui = true
+[merge]
+	ff = false
