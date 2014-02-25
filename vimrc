@@ -18,6 +18,8 @@ set expandtab
 set smarttab
 set autoindent
 
+let g:instant_markdown_autostart = 1
+
 " set shell=/usr/local/bin/bash
 let g:GPGPreferArmor=1
 
