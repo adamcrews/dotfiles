@@ -86,6 +86,11 @@ source /opt/boxen/env.sh
 # Set up java
 export JAVA_HOME=$(/usr/libexec/java_home)
 
+export ENVPUPPET_BASEDIR=/Users/adam/sandbox
+#alias puppet='~/sandbox/puppet/ext/envpuppet puppet'
+#alias facter='~/sandbox/puppet/ext/envpuppet facter'
+#alias irb='~/sandbox/puppet/ext/envpuppet irb'
+
 if [ -f ~/.local.zshrc ]; then
   source ~/.local.zshrc
 fi
