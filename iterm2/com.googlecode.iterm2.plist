@@ -540,9 +540,9 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>206 158 924 485 0 0 1440 878 </string>
+	<string>203 158 924 485 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>788 4 652 477 0 0 1440 878 </string>
+	<string>610 200 652 477 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>626 427 668 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
@@ -3497,6 +3497,8 @@
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>0</integer>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PassOnControlClick</key>
 	<false/>
 	<key>PasteFromClipboard</key>
@@ -3551,7 +3553,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-01-16T15:01:17Z</date>
+	<date>2014-02-28T17:09:36Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -12228,6 +12230,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20131228</string>
+	<string>1.0.0.20140112</string>
 </dict>
 </plist>

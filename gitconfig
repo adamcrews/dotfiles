@@ -21,5 +21,6 @@
 #	ff = false
 
 [alias]
-    pu = !"git fetch origin -v; git pull --rebase upstream master"
-    #pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master --ff-only"
+  pu = !"git fetch origin -v; git pull --rebase upstream master"
+  #pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master --ff-only"
+  lg = !"git log --pretty=format:'%C(yellow)%h%C(reset) %C(blue)%an%C(reset) %C(cyan)%cr%C(reset) %s %C(green)%d%C(reset)' --graph --date-order"
