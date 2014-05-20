@@ -522,49 +522,16 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>302</string>
-	</array>
-	<key>NSTableView Hidden Columns KeyBingingTable</key>
-	<array/>
-	<key>NSTableView Sort Ordering KeyBingingTable</key>
-	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>203 158 924 485 0 0 1440 878 </string>
+	<string>269 110 924 485 0 0 1440 878 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>79 524 384 129 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>610 200 652 477 0 0 1440 878 </string>
+	<string>597 401 652 477 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>626 427 668 451 0 0 1440 878 </string>
-	<key>NSWindow Frame iTerm Window 10</key>
-	<string>796 94 570 451 0 0 1440 878 </string>
-	<key>NSWindow Frame iTerm Window 11</key>
-	<string>414 237 570 451 0 0 1440 878 </string>
+	<string>183 68 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>826 397 570 451 0 0 1440 878 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>207 114 570 451 0 0 1440 878 </string>
-	<key>NSWindow Frame iTerm Window 4</key>
-	<string>13 422 570 451 0 0 1440 878 </string>
-	<key>NSWindow Frame iTerm Window 5</key>
-	<string>247 91 570 451 0 0 1440 878 </string>
-	<key>NSWindow Frame iTerm Window 6</key>
-	<string>309 352 570 451 0 0 1440 878 </string>
-	<key>NSWindow Frame iTerm Window 7</key>
-	<string>189 93 570 451 0 0 1440 878 </string>
-	<key>NSWindow Frame iTerm Window 8</key>
-	<string>351 306 570 451 0 0 1440 878 </string>
-	<key>NSWindow Frame iTerm Window 9</key>
-	<string>372 283 570 451 0 0 1440 878 </string>
+	<string>204 45 570 451 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_16CDC3BF-1701-48B7-8D50-E217CF3F4B9E</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -3487,8 +3454,6 @@
 			<string>/Users/acrews</string>
 		</dict>
 	</array>
-	<key>NoSyncNeverRemindPrefsChangesCopy</key>
-	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -3553,7 +3518,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-02-28T17:09:36Z</date>
+	<date>2014-05-20T00:01:57Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -3596,7 +3561,7 @@
 	<key>WebKitDefaultFontSize</key>
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
-	<string>Lucida Grande</string>
+	<string>.Lucida Grande UI</string>
 	<key>Window Arrangements</key>
 	<dict>
 		<key>3-preso</key>
@@ -12230,6 +12195,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20140112</string>
+	<string>1.0.0.20140421</string>
 </dict>
 </plist>

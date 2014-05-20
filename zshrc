@@ -87,6 +87,7 @@ source /opt/boxen/env.sh
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 export ENVPUPPET_BASEDIR=/Users/adam/sandbox
+eval $($ENVPUPPET_BASEDIR/puppet/ext/envpuppet)
 #alias puppet='~/sandbox/puppet/ext/envpuppet puppet'
 #alias facter='~/sandbox/puppet/ext/envpuppet facter'
 #alias irb='~/sandbox/puppet/ext/envpuppet irb'
