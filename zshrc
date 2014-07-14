@@ -53,7 +53,7 @@ plugins=(git brew jira screen vagrant web-search)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/adam/bin:/usr/local/bin:/opt/X11/bin:/opt/boxen/nodenv/bin:/usr/local/MacGPG2/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/adam/bin:/usr/local/bin:/opt/X11/bin:/opt/boxen/nodenv/bin:/usr/local/MacGPG2/bin:/Users/adam/bin/google-cloud-sdk/bin"
 
 # rbenv init
 #export PATH="/Users/adam/.rbenv/shims:${PATH}"
@@ -92,7 +92,16 @@ eval $($ENVPUPPET_BASEDIR/puppet/ext/envpuppet)
 #alias facter='~/sandbox/puppet/ext/envpuppet facter'
 #alias irb='~/sandbox/puppet/ext/envpuppet irb'
 
+function myip () {
+  curl -s icanhazip.com
+}
+
+# Bundler stuff
+alias be="bundle exec"
+alias buni="bundle install"
+
 if [ -f ~/.local.zshrc ]; then
   source ~/.local.zshrc
 fi
-  
+
+
