@@ -48,7 +48,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 #DEFAULT#plugins=(git)
-plugins=(git brew jira screen vagrant web-search)
+plugins=(git brew jira screen vagrant web-search bundler)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,8 +97,10 @@ function myip () {
 }
 
 # Bundler stuff
-alias be="bundle exec"
-alias buni="bundle install"
+#alias be="bundle exec"
+#alias buni="bundle install"
+
+#export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
 
 if [ -f ~/.local.zshrc ]; then
   source ~/.local.zshrc

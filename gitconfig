@@ -2,7 +2,7 @@
   helper = /opt/boxen/bin/boxen-git-credential
 
 [core]
-  excludesfile = /opt/boxen/config/git/gitignore
+	excludesfile = /opt/boxen/config/git/gitignore
 
 [hub]
   protocol = https
@@ -24,3 +24,9 @@
   pu = !"git fetch origin -v; git pull --rebase upstream master"
   #pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master --ff-only"
   lg = !"git log --pretty=format:'%C(yellow)%h%C(reset) %C(blue)%an%C(reset) %C(cyan)%cr%C(reset) %s %C(green)%d%C(reset)' --graph --date-order"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

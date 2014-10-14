@@ -7,6 +7,7 @@ set background=dark
 colorscheme solarized
 
 set shell=/opt/boxen/homebrew/bin/bash
+set ruler
 
 execute pathogen#infect()
 syntax on
