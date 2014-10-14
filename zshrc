@@ -106,4 +106,6 @@ if [ -f ~/.local.zshrc ]; then
   source ~/.local.zshrc
 fi
 
-
+if [ -f ~/.iterm2_shell_integration.zsh ]; then
+  source ~/.iterm2_shell_integration.zsh
+fi

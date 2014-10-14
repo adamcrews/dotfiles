@@ -522,12 +522,29 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSTableView Columns KeyBingingTable</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATCG
+		</data>
+		<string>198</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATGG
+		</data>
+		<string>302</string>
+	</array>
+	<key>NSTableView Hidden Columns KeyBingingTable</key>
+	<array/>
+	<key>NSTableView Sort Ordering KeyBingingTable</key>
+	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>2293 -279 924 485 1440 -540 2560 1418 </string>
+	<string>853 261 924 485 0 0 2560 1418 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>79 524 384 129 0 0 1440 878 </string>
+	<string>1088 967 384 129 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2418 116 652 477 1440 -540 2560 1418 </string>
+	<string>300 840 652 477 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>183 68 570 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3518,7 +3535,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-07-14T17:44:18Z</date>
+	<date>2014-10-14T15:49:06Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -3551,7 +3568,12 @@
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
 	<key>URLHandlersByGuid</key>
-	<dict/>
+	<dict>
+		<key>ssh</key>
+		<string>16CDC3BF-1701-48B7-8D50-E217CF3F4B9E</string>
+		<key>telnet</key>
+		<string>16CDC3BF-1701-48B7-8D50-E217CF3F4B9E</string>
+	</dict>
 	<key>UseBorder</key>
 	<true/>
 	<key>UseCompactLabel</key>
@@ -12195,6 +12217,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20140629</string>
+	<string>2.0</string>
 </dict>
 </plist>
