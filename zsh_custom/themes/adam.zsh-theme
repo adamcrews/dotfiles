@@ -167,12 +167,13 @@ prompt_status() {
   [[ -n "$symbols" ]] && prompt_segment black default "$symbols"
 }
 
+# vms:
+# - list how many vmware fusion and vbox vm's are running
 prompt_vms() {
 
   vmware_cmd=("${(@f)$(/Applications/VMware\ Fusion.app/Contents/Library/vmrun list)}")
   vmware_line=$vmware_cmd[1]
 
-  #vbo=("${(@f)$(VBoxManage list runningvms)}")
   vbox_cmd=("$(VBoxManage list runningvms | wc -l)")
   vbox_count="${vbox_cmd#"${vbox_cmd%%[![:space:]]*}"}"
 
