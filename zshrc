@@ -92,6 +92,10 @@ eval $($ENVPUPPET_BASEDIR/puppet/ext/envpuppet)
 #alias facter='~/sandbox/puppet/ext/envpuppet facter'
 #alias irb='~/sandbox/puppet/ext/envpuppet irb'
 
+# Gam stuff
+alias pd-gam=python\ ~/gam/pd-gam-3.42/gam.py
+alias mfe-gam=python\ ~/gam/mfe-gam-3.42/gam.py
+
 function myip () {
   curl -s icanhazip.com
 }
