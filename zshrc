@@ -53,7 +53,7 @@ plugins=(git brew jira screen vagrant web-search bundler)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/adam/bin:/usr/local/bin:/opt/X11/bin:/opt/boxen/nodenv/bin:/usr/local/MacGPG2/bin:/Users/adam/bin/google-cloud-sdk/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/adamc/bin:/usr/local/bin:/opt/X11/bin:/opt/boxen/nodenv/bin:/usr/local/MacGPG2/bin:/Users/adamc/bin/google-cloud-sdk/bin"
 
 # rbenv init
 #export PATH="/Users/adam/.rbenv/shims:${PATH}"
@@ -86,7 +86,7 @@ source /opt/boxen/env.sh
 # Set up java
 export JAVA_HOME=$(/usr/libexec/java_home)
 
-export ENVPUPPET_BASEDIR=/Users/adam/sandbox
+export ENVPUPPET_BASEDIR=/Users/adamc/sandbox
 eval $($ENVPUPPET_BASEDIR/puppet/ext/envpuppet)
 #alias puppet='~/sandbox/puppet/ext/envpuppet puppet'
 #alias facter='~/sandbox/puppet/ext/envpuppet facter'

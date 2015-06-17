@@ -2,15 +2,14 @@
   helper = /opt/boxen/bin/boxen-git-credential
 
 [core]
-	excludesfile = /Users/adam/.gitignore_global
+	excludesfile = /opt/boxen/config/git/gitignore
 
 [hub]
   protocol = https
 
 [user]
 	name = Adam Crews
-	email = adam@pathdefender.com
- # email = adam.crews@gmail.com
+	email = adamc@slalom.com
 
 [push]
 	default = simple
