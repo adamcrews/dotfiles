@@ -48,12 +48,12 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 #DEFAULT#plugins=(git)
-plugins=(git brew jira screen vagrant web-search bundler)
+plugins=(git brew jira screen vagrant web-search bundler chucknorris)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/adamc/bin:/usr/local/bin:/opt/X11/bin:/opt/boxen/nodenv/bin:/usr/local/MacGPG2/bin:/Users/adamc/bin/google-cloud-sdk/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/adamc/bin:/usr/local/bin:/opt/X11/bin:/opt/boxen/nodenv/bin:/opt/boxen/homebrew/bin/strfile:/usr/local/MacGPG2/bin:/Users/adamc/bin/google-cloud-sdk/bin"
 
 # rbenv init
 #export PATH="/Users/adam/.rbenv/shims:${PATH}"
@@ -78,7 +78,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/adamc/bin:/usr/local/bin:/opt/
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 # This comes from the curl-ca-bundle brew package
-export SSL_CERT_FILE=/opt/boxen/homebrew/share/ca-bundle.crt
+#export SSL_CERT_FILE=/opt/boxen/homebrew/share/ca-bundle.crt
 
 # add our boxen stuff
 source /opt/boxen/env.sh
@@ -100,11 +100,22 @@ function myip () {
   curl -s icanhazip.com
 }
 
+function clean_chrome () {
+  app="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  (
+    td=`mktemp -d /tmp/chrome.tmp.XXXX`
+    ${app} --user-data-dir=${td} > /dev/null 2>&1;
+    rm -r ${td}
+  ) &
+}
+
 # Bundler stuff
 #alias be="bundle exec"
 #alias buni="bundle install"
 
 #export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
+
+export LESS='-FRSX'
 
 if [ -f ~/.local.zshrc ]; then
   source ~/.local.zshrc

@@ -2,7 +2,7 @@
   helper = /opt/boxen/bin/boxen-git-credential
 
 [core]
-	excludesfile = /opt/boxen/config/git/gitignore
+	excludesfile = /Users/adamc/.gitignore_global
 
 [hub]
   protocol = https
@@ -15,7 +15,7 @@
 	default = simple
 
 [color]
-	ui = true
+	ui = always
 
 [merge]
 #	ff = false
@@ -30,3 +30,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[http]
+	sslVerify = false

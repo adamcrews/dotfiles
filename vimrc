@@ -29,5 +29,9 @@ let g:instant_markdown_autostart = 1
 " set shell=/usr/local/bin/bash
 let g:GPGPreferArmor=1
 
-" autocmd BufEnter * :syntax sync fromstart
+autocmd BufEnter * :syntax sync fromstart
+
+set spelllang=en
+set spellfile=$HOME/sandbox/dotfiles/vim/spell/en.utf-8.add
+set spell
 
