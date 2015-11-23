@@ -516,6 +516,8 @@
 	<false/>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/sandbox/dotfiles/iterm2</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -533,26 +535,32 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>322</string>
+		<string>302</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>755 110 859 720 0 0 1680 1027 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>290 420 918 498 0 0 1680 1027 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>1088 967 384 129 0 0 2560 1418 </string>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 477 620 392 0 0 1680 1027 </string>
-	<key>NSWindow Frame UKCrashReporter</key>
-	<string>99 293 592 584 0 0 1440 877 </string>
+	<string>230 351 924 485 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1028 4 652 478 0 0 1680 1027 </string>
+	<string>0 550 652 477 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>183 68 570 451 0 0 1440 878 </string>
+	<string>716 205 570 672 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>204 45 570 451 0 0 1440 878 </string>
+	<string>423 368 570 451 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>0 4 570 451 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 4</key>
+	<string>45 214 570 451 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 5</key>
+	<string>408 224 570 451 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 6</key>
+	<string>655 32 570 451 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 7</key>
+	<string>376 346 570 451 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_16CDC3BF-1701-48B7-8D50-E217CF3F4B9E</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1118,7 +1126,7 @@
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
-			<integer>-2</integer>
+			<integer>-1</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Scrollback With Status Bar</key>
@@ -2202,8 +2210,6 @@
 			<integer>80</integer>
 			<key>Command</key>
 			<string></string>
-			<key>Cursor Boost</key>
-			<real>0.0</real>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -3477,12 +3483,10 @@
 			<string>/Users/acrews</string>
 		</dict>
 	</array>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
-	<true/>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
-	<integer>0</integer>
-	<key>NoSyncSuppressAnnyoingBellOffer</key>
-	<true/>
+	<key>NoSyncTimeOfLastPromo</key>
+	<real>456210982.59483802</real>
+	<key>NoSyncTimeOfLastPromoDownload</key>
+	<real>467183722.322142</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -3533,7 +3537,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/adam/sandbox/dotfiles/iterm2</string>
+	<string>/Users/adamc/sandbox/dotfiles/iterm2</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -3544,14 +3548,12 @@
 	<integer>3</integer>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
-	<key>SUFeedAlternateAppNameKey</key>
-	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/nightly.xml</string>
+	<string>https://iterm2.com/appcasts/testing.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-03-28T16:49:02Z</date>
+	<date>2015-10-26T22:55:33Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -3583,8 +3585,6 @@
 	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
-	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1418690176</real>
 	<key>URLHandlersByGuid</key>
 	<dict>
 		<key>ssh</key>
@@ -3601,7 +3601,7 @@
 	<key>WebKitDefaultFontSize</key>
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
-	<string>Lucida Grande</string>
+	<string>.Helvetica Neue DeskInterface</string>
 	<key>Window Arrangements</key>
 	<dict>
 		<key>3-preso</key>
@@ -12235,7 +12235,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20150321-nightly</string>
+	<string>2.1.4</string>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
 </dict>

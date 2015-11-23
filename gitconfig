@@ -1,15 +1,15 @@
 [credential]
-  helper = /opt/boxen/bin/boxen-git-credential
+	helper = osxkeychain
 
 [core]
-	excludesfile = /Users/adamc/.gitignore_global
+	excludesfile = /opt/boxen/config/git/gitignore
 
 [hub]
   protocol = https
 
 [user]
 	name = Adam Crews
-	email = adamc@slalom.com
+	email = Adam.Crews@gmail.com
 
 [push]
 	default = simple
