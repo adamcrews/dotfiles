@@ -8,6 +8,10 @@ ZSH_CUSTOM=$HOME/.oh-my-zsh_custom
 # time that oh-my-zsh is loaded.
 #DEFAULT##ZSH_THEME="robbyrussell"
 #ZSH_THEME="agnoster"
+
+# datetime & stat are needed by the adam theme
+zmodload zsh/datetime
+zmodload zsh/stat
 ZSH_THEME="adam"
 
 # Example aliases

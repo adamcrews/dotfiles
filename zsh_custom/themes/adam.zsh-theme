@@ -168,18 +168,32 @@ prompt_status() {
 }
 
 # vms:
-# - list how many vmware fusion and vbox vm's are running
+# - list how many vmware fusion and vbox vm's are running, now with caching!
 prompt_vms() {
+  # note this requires that you enable the stat and datetime zsh modules in your zshrc
 
-  vmware_cmd=("${(@f)$(/Applications/VMware\ Fusion.app/Contents/Library/vmrun list)}")
-  vmware_line=$vmware_cmd[1]
+  cache_seconds=120
+  cache_file=~/.oh-my-zsh/cache/vmstatus.cache
+  zstat -A vmstatus $cache_file 2>/dev/null
+  
+  if [[ $(( $EPOCHSECONDS - ${vmstatus[10]:-0} )) -le $cache_seconds ]]; then
+    source $cache_file
+  else
+    vmware_cmd=("${(@f)$(/Applications/VMware\ Fusion.app/Contents/Library/vmrun list)}")
+    vmware_line=$vmware_cmd[1]
 
-  vbox_cmd=("$(VBoxManage list runningvms | wc -l)")
-  vbox_count="${vbox_cmd#"${vbox_cmd%%[![:space:]]*}"}"
+    vbox_cmd=("$(VBoxManage list runningvms | wc -l)")
+    vbox_count="${vbox_cmd#"${vbox_cmd%%[![:space:]]*}"}"
+    
+    echo "vmw_out=${vmware_line##* }" > $cache_file
+    echo "vb_out=${vbox_count}" >> $cache_file
 
+    source $cache_file
+  fi
 
-  [[ ${vmware_line##* } -gt 0 ]] && prompt_segment black default "VF:${vmware_line##* }"
-  [[ ${vbox_count} -gt 0 ]] && prompt_segment black default "VB:${vbox_count}"
+  [[ ${vmw_out} -gt 0 ]] && prompt_segment black default "VF:${vmw_out}"
+  [[ ${vb_out} -gt 0 ]] && prompt_segment black default "VB:${vb_out}"
+
 }
 
 
