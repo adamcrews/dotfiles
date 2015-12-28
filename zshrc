@@ -47,12 +47,18 @@ COMPLETION_WAITING_DOTS="true"
 # large repositories much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+# Enable thefuck press ESC 2x to use
+eval "$(thefuck --alias)"
+
+# Direnv
+type direnv > /dev/null 2>&1 && eval "$(direnv hook zsh)"
+
 # Which plugins would you like to load? (plugins can be found in 
 # ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 #DEFAULT#plugins=(git)
-plugins=(git brew jira screen vagrant web-search bundler chucknorris)
+plugins=(git brew jira screen vagrant web-search bundler chucknorris thefuck rake-fast)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -128,3 +134,4 @@ fi
 if [ -f ~/.iterm2_shell_integration.zsh ]; then
   source ~/.iterm2_shell_integration.zsh
 fi
+
