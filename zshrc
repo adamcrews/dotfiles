@@ -50,9 +50,6 @@ COMPLETION_WAITING_DOTS="true"
 # Enable thefuck press ESC 2x to use
 eval "$(thefuck --alias)"
 
-# Direnv
-type direnv > /dev/null 2>&1 && eval "$(direnv hook zsh)"
-
 # Which plugins would you like to load? (plugins can be found in 
 # ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -127,6 +124,9 @@ function clean_chrome () {
 
 export LESS='-FRSX'
 
+# Direnv
+type direnv > /dev/null 2>&1 && eval "$(direnv hook $SHELL)"
+
 if [ -f ~/.local.zshrc ]; then
   source ~/.local.zshrc
 fi
@@ -135,3 +135,7 @@ if [ -f ~/.iterm2_shell_integration.zsh ]; then
   source ~/.iterm2_shell_integration.zsh
 fi
 
+alias please='sudo $(fc -ln -1)'
+
+# added by travis gem
+[ -f /Users/adamc/.travis/travis.sh ] && source /Users/adamc/.travis/travis.sh
