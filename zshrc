@@ -14,10 +14,6 @@ zmodload zsh/datetime
 zmodload zsh/stat
 ZSH_THEME="adam"
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -25,7 +21,7 @@ ZSH_THEME="adam"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=5
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
@@ -54,38 +50,16 @@ eval "$(thefuck --alias)"
 # ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-#DEFAULT#plugins=(git)
-plugins=(git brew jira screen vagrant web-search bundler chucknorris thefuck rake-fast)
+plugins=(git brew jira screen vagrant web-search bundler chucknorris thefuck rake-fast rbenv docker asdf nodenv)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/adamc/bin:/usr/local/bin:/opt/X11/bin:/opt/boxen/nodenv/bin:/opt/boxen/homebrew/bin/strfile:/usr/local/MacGPG2/bin:/Users/adamc/bin/google-cloud-sdk/bin"
-
-# rbenv init
-#export PATH="/Users/adam/.rbenv/shims:${PATH}"
-#source "/usr/local/Cellar/rbenv/0.4.0/libexec/../completions/rbenv.zsh"
-#rbenv rehash 2>/dev/null
-#rbenv() {
-#  typeset command
-#  command="$1"
-#  if [ "$#" -gt 0 ]; then
-#    shift
-#  fi
-#
-#  case "$command" in
-#  rehash|shell)
-#    eval `rbenv "sh-$command" "$@"`;;
-#  *)
-#    command rbenv "$command" "$@";;
-#  esac
-#}
+#export PATH="/opt/boxen/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/adamc/bin:/usr/local/bin:/opt/X11/bin:/opt/boxen/nodenv/bin"
+export PATH="/opt/boxen/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/adamc/bin:/usr/local/bin:/opt/X11/bin"
 
 # Fix our lscolors:
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
-
-# This comes from the curl-ca-bundle brew package
-#export SSL_CERT_FILE=/opt/boxen/homebrew/share/ca-bundle.crt
 
 # add our boxen stuff
 source /opt/boxen/env.sh
@@ -93,34 +67,12 @@ source /opt/boxen/env.sh
 # Set up java
 export JAVA_HOME=$(/usr/libexec/java_home)
 
-export ENVPUPPET_BASEDIR=/Users/adamc/sandbox
-eval $($ENVPUPPET_BASEDIR/puppet/ext/envpuppet)
-#alias puppet='~/sandbox/puppet/ext/envpuppet puppet'
-#alias facter='~/sandbox/puppet/ext/envpuppet facter'
-#alias irb='~/sandbox/puppet/ext/envpuppet irb'
-
-# Gam stuff
-alias pd-gam=python\ ~/gam/pd-gam-3.42/gam.py
-alias mfe-gam=python\ ~/gam/mfe-gam-3.42/gam.py
+#export ENVPUPPET_BASEDIR=/Users/adamc/sandbox
+#eval $($ENVPUPPET_BASEDIR/puppet/ext/envpuppet)
 
 function myip () {
   curl -s icanhazip.com
 }
-
-function clean_chrome () {
-  app="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-  (
-    td=`mktemp -d /tmp/chrome.tmp.XXXX`
-    ${app} --user-data-dir=${td} > /dev/null 2>&1;
-    rm -r ${td}
-  ) &
-}
-
-# Bundler stuff
-#alias be="bundle exec"
-#alias buni="bundle install"
-
-#export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
 
 export LESS='-FRSX'
 
@@ -139,3 +91,7 @@ alias please='sudo $(fc -ln -1)'
 
 # added by travis gem
 [ -f /Users/adamc/.travis/travis.sh ] && source /Users/adamc/.travis/travis.sh
+
+# added for asdf support
+[ -f /Users/adamc/.asdf/asdf.sh ] && source /Users/adamc/.asdf/asdf.sh
+[ -f /Users/adamc/.asdf/completions/asdf.bash ] && source /Users/adamc/.asdf/completions/asdf.bash

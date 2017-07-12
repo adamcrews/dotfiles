@@ -13,8 +13,10 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-nnoremap <F3> :NumbersToggle<CR>
-nnoremap <F4> :NumbersOnOff<CR>
+" nnoremap <F3> :NumbersToggle<CR>
+" nnoremap <F4> :NumbersOnOff<CR>
+set number
+set relativenumber
 
 set modelines=1
 set shiftwidth=2
