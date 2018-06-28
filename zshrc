@@ -95,3 +95,10 @@ alias please='sudo $(fc -ln -1)'
 # added for asdf support
 [ -f /Users/adamc/.asdf/asdf.sh ] && source /Users/adamc/.asdf/asdf.sh
 [ -f /Users/adamc/.asdf/completions/asdf.bash ] && source /Users/adamc/.asdf/completions/asdf.bash
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/adamc/sandbox/slalom/lambda-jenkins-plugin3/src/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/adamc/sandbox/slalom/lambda-jenkins-plugin3/src/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/adamc/sandbox/slalom/lambda-jenkins-plugin3/src/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/adamc/sandbox/slalom/lambda-jenkins-plugin3/src/node_modules/tabtab/.completions/sls.zsh
